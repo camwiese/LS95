@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"word",
+				"word_inner"
+			],
+			[
+				"letters",
+				"letters_outer"
+			],
+			[
+				"key",
+				"key-value"
+			],
+			[
 				"name",
 				"name"
 			],
@@ -234,10 +246,6 @@
 			[
 				"wave",
 				"wave_array"
-			],
-			[
-				"word",
-				"word_to_digit"
 			],
 			[
 				"num",
@@ -506,14 +514,6 @@
 			[
 				"char",
 				"character_classes"
-			],
-			[
-				"ev",
-				"even_numbers"
-			],
-			[
-				"mul",
-				"multiply_by_five"
 			]
 		]
 	},
@@ -523,7 +523,17 @@
 			"file": "hashes.rb",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 2025,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "moar_stuff.rb",
+			"settings":
+			{
+				"buffer_size": 805,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -742,7 +752,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -751,15 +761,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 2025,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1892,
+								1892
 							]
 						],
 						"settings":
@@ -767,7 +777,35 @@
 							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 827.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "moar_stuff.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 805,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								803,
+								803
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 268.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -809,7 +847,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 235.0
+		"height": 118.0
 	},
 	"output.find_results":
 	{
